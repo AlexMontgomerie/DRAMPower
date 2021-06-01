@@ -54,6 +54,7 @@ class MemoryType {
   enum MemoryType_t {
     DDR2 = 0,
     DDR3,
+    DDR3L,
     DDR4,
     LPDDR,
     LPDDR2,
@@ -78,6 +79,8 @@ class MemoryType {
     if (_val == "DDR2") {
       val = DDR2;
     } else if (_val == "DDR3") {
+      val = DDR3;
+    } else if (_val == "DDR3L") {
       val = DDR3;
     } else if (_val == "DDR4") {
       val = DDR4;
